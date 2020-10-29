@@ -1,3 +1,4 @@
+/* PHONES */
 @media only screen and (min-width: 768px) {
   body {
     background-image: url("./images/bg-pattern-desktop.svg");
@@ -17,9 +18,14 @@
   }
 }
 
+/* TABLETS AND UP */
 @media only screen and (min-width: 1024px) {
   body {
     background-image: url("./images/bg-pattern-desktop.svg");
+  }
+
+  header {
+    display: none;
   }
 
   .mobile-hero-image {
@@ -28,6 +34,7 @@
 
   .desktop-hero-image {
     display: block;
+    height: 100vh;
   }
 
   main {
@@ -35,16 +42,45 @@
     flex-direction: row-reverse;
   }
 
+  .information {
+    margin: 0 80px;
+  }
+
+  .information img {
+    display: block;
+    margin: 35px 0;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
   .landing-text h1 {
     font-size: 50px;
+    align-items: flex-start;
   }
 
   .landing-text p {
     margin: 0 45px;
     font-size: 22px;
+    text-align: start;
+    margin: 0;
+    padding: 0;
+  }
+
+  form {
+    justify-content: flex-start;
   }
 
   input {
     background-color: #fefefe;
+  }
+
+  footer {
+    text-align: start;
+    position: fixed;
+    bottom: 0;
   }
 }
