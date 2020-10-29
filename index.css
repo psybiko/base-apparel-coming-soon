@@ -10,8 +10,8 @@ body {
 body {
   /* background-image: url("images/bg-pattern-desktop.svg");
    */
-   font-family: "Josefin Sans", sans-serif;
-  background-color: #FEF4F5;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #fef4f5;
 }
 
 header {
@@ -64,7 +64,7 @@ input {
   padding: 11px;
   height: 18px;
   width: 15rem;
-  background-color: #FEF4F5;
+  background-color: #fef4f5;
 }
 
 ::placeholder {
@@ -73,13 +73,14 @@ input {
 }
 
 button {
-  margin: 0 -60px;
+  margin: 0 -52px;
   border: none;
   color: white;
   background: Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
   border-radius: 58px;
   padding: 0 20px;
   font-size: 33px;
+  width: 58px;
   background: rgb(255, 245, 245);
   background: linear-gradient(
     111deg,
@@ -87,7 +88,6 @@ button {
     rgba(248, 191, 191, 1) 17%,
     rgba(238, 140, 140, 1) 100%
   );
-
 }
 
 footer {
@@ -96,7 +96,6 @@ footer {
 
 .attribution {
   color: hsl(0, 6%, 24%);
-  
 }
 
 .attribution a {
