@@ -27,6 +27,14 @@ main {
   height: calc(100vh - 87px);
 }
 
+.mobile-hero-image {
+  width: 100vw;
+}
+
+.desktop-hero-image {
+  display: none;
+}
+
 .landing-text h1 {
   text-transform: uppercase;
   color: hsl(0, 6%, 24%);
