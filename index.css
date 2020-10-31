@@ -109,6 +109,10 @@ button {
   display: none;
 }
 
+.error-outline {
+  border: 1px solid hsl(0, 93%, 68%);
+}
+
 small {
   margin-left: 20px;
 }
