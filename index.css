@@ -61,10 +61,11 @@ header {
 
 form {
   display: flex;
+  flex-wrap: wrap;
   position: relative;
   justify-content: center;
   padding-right: 50px;
-  margin: 35px 0;
+  margin: 35px 0 15px 0;
 }
 
 input {
@@ -105,6 +106,11 @@ button {
 
 .error {
   color: hsl(0, 93%, 68%);
+  display: none;
+}
+
+small {
+  margin-left: 20px;
 }
 
 form i {
