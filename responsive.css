@@ -78,6 +78,10 @@
     background-color: #fefefe;
   }
 
+  small {
+    margin: 0;
+  }
+
   footer {
     text-align: start;
     position: fixed;
